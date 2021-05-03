@@ -1,7 +1,5 @@
 # M5Paper Library
 
-English | [中文](README_cn.md)
-
 ![M5Paper_Pic_01](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/assets/img/product_pics/core/m5paper/m5paper_01.jpg)
 
 ## Description
