@@ -1,5 +1,43 @@
 # M5Paper Library
 
+## About this fork
+
+This is a fork of [M5EPD](https://github.com/m5stack/M5EPD).
+The purpose of this fork is to clear the license issue of M5EPD. See [m5stack/M5EPD#21](https://github.com/m5stack/M5EPD/issues/21) for more details about the license issue.
+
+This repository does following modifications to the original M5EPD:
+
+* Reimplement some features from scratch.
+    * SHT3x (was under GNU GENERAL PUBLIC LICENSE Version 3)
+    * Button (was under Creative Commons Attribution-ShareAlike 3.0 Unported License)
+* Remove some features.
+    * CommUtil (was under GNU Lesser General Public License v2.1)
+    * M5Timer (was under GNU Lesser General Public License v2.1 or later)
+* Update the [LICENSE](LICENSE) file to include all license notices for codes in this repository.
+    * Please let me know appropriate format for such license notices!
+    * Please let me know if this library contains codes with licenses not written here.
+    * This repository contains following codes derived from other projects:
+        * codes from FreeType, under FreeType license:
+            * src/base
+            * src/freetype
+            * src/ft2build.h
+            * src/sfnt
+            * src/smooth
+            * src/truetype
+        * codes under MIT / BSD / FreeBSD license:
+            * TFT_eSPI, Sprite, src/Fonts
+                * Supposed to come from https://github.com/Bodmer/TFT_eSPI
+        * 3-clause BSD license:
+            * Tom Thumb 3x5 font
+                * See https://github.com/adafruit/Adafruit-GFX-Library/pull/75 for details.
+        * codes under MIT license:
+            * M5EPD_Canvas
+                * Supposed to come from https://github.com/espressif/WROVER_KIT_LCD
+            * pngle from https://github.com/kikuchan/pngle
+            * qrcode from https://github.com/ricmoo/QRCode
+            * SHT3x, Button
+                * Contributed in this repository.
+
 ![M5Paper_Pic_01](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/assets/img/product_pics/core/m5paper/m5paper_01.jpg)
 
 ## Description
